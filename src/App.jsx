@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./App.css";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/navbar";
 
 import { Homepage } from "./pages/homepage";
 
@@ -8,7 +10,12 @@ function App() {
 
   return (
     <>
-      <Homepage />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </Router>
     </>
   );
 }

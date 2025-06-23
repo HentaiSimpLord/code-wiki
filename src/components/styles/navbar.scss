@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+#navbar {
+  height: 60px;
+  width: 100vw;
+  background-color: white;
+
+  img {
+    height: 50px;
+  }
+
+  ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+  }
+}
