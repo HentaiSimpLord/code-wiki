@@ -11,7 +11,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li id="search">
-          <Link to="/search">🔍</Link>
+          <Link to="/search">🔎</Link>
         </li>
       </ul>
     </nav>

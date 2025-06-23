@@ -1,6 +1,8 @@
+import "./styles/homepage.scss";
+
 export const Homepage = () => {
   return (
-    <div className="container">
+    <div id="homepage-div" className="container">
       <h1>Welcome to Code Wiki</h1>
       <article>
         Here I save all my Coding Progess. <br />
